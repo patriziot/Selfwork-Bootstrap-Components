@@ -1,0 +1,134 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+/*.custom-nav{
+    text-align: center;
+    background-color: black;
+    border-bottom-right-radius: 50px;
+    height: 5vh;
+    width: 25%;
+    align-content: center;
+    position: fixed;
+    
+}
+.custom-nav a{
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    text-transform:capitalize;
+    font-family: "Poetsen One", sans-serif;
+}*/
+.navbar{
+    background-color:blanchedalmond;
+}
+.nav-custom{
+    background-color:blanchedalmond;
+}
+.active{
+    color: rgb(0, 0, 0);
+}
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover{
+    color:rgb(0, 0, 0);
+}
+.intestazione{
+    background-image: url(./media/Carbonara\ Header.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: "Poetsen One", sans-serif;
+}
+.custom-h2{
+    text-align: center;
+    margin:20px 0px 20px 0px;
+    background-color: black;
+    color:white;
+}
+.col h3{
+    text-align: center;
+    margin-top:10px;
+    background-color: blanchedalmond;
+}
+
+.col button{
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 25%;
+    width: 100%;
+    margin-bottom:20px;
+    justify-content: start;
+    bottom:0px
+}
+.custom-footer{
+    height: 5vh;
+    background-color:blanchedalmond;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.custom-footer p{
+   margin-top:10px;
+   font-size: 12px;
+}
+.modal-logo-custom{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+}
+.faq-custom{
+    text-align: center;
+    margin: 5px;
+}
+.btn-custom{
+    background-color: blanchedalmond;
+    color:black;
+    border: 2px solid black;
+}
+.btn-custom:hover{
+    background-color: black;
+    color: blanchedalmond;
+    border-bottom-right-radius: 25px;
+}
+.btn-custom-secondary{
+    background-color: white;
+    color: black;
+    border: 2px solid blanchedalmond;
+}
+.btn-custom-secondary:hover{
+    background-color: blanchedalmond;
+}
+.accordion-btn-custom{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.test{
+    background-color: beige;
+}
+@media screen and (max-width: 1024px){
+    h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 600px){
+    .intestazione{
+        max-height: 50vh;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+
+
