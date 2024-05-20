@@ -1,23 +1,7 @@
 *{
     font-family: "Roboto", sans-serif;
 }
-/*.custom-nav{
-    text-align: center;
-    background-color: black;
-    border-bottom-right-radius: 50px;
-    height: 5vh;
-    width: 25%;
-    align-content: center;
-    position: fixed;
-    
-}
-.custom-nav a{
-    margin: 10px;
-    text-decoration: none;
-    color:white;
-    text-transform:capitalize;
-    font-family: "Poetsen One", sans-serif;
-}*/
+
 .navbar{
     background-color:blanchedalmond;
 }
